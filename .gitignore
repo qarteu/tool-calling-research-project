@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+docs/
+results/
+scripts/build_deliverable2_docx.py
+
+# The machine's global gitignore hides data/, but this project needs seed data
+# for reproducible validation.
+!data/
+!data/**
